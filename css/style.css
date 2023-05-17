@@ -1,5 +1,12 @@
+.bordered {
+  box-shadow: 0 0 0 2rem rgb(168, 194, 204);
+  font: bold 1rem sans-serif;
+  margin: 2rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;}
+
 .page {
-    width: 1980px;
+    width: 900px;
     margin: 0 auto;
     background-color:#0000FF;
    
@@ -8,11 +15,11 @@
 .image {
     background-image: url('../img/Banner_img.png');
     background-position: top center;
-    height: 400px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat:no-repeat;
     
 }
@@ -25,14 +32,30 @@
     text-align: center;
     border-radius: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    background-size: contain;
 }
 .border {
     padding: 24px;
     border: 3px solid #400ae4;
-    border-radius: 20px;
+    background-color: #151515;
+    color:white;
 }
 
-    .footer{
+/* .h3 {
+    background-color:#151515;
+    font-family: Arial, Helvetica, sans-serif;
+	color: blueviolet;
+} */
+
+/* .text{
+    height: 50px;
+    width: 300px;
+    background-color: #0000FF;
+    border-radius:20px;
+} */
+
+
+.footer{
         padding: 15px;
         background-color: #e6e6eb;
         display: flex;
